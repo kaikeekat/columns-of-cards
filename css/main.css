@@ -1,23 +1,83 @@
-html {
+ html {
   box-sizing: border-box;
+  background-color: #f2f2f2;
+  font-family: "Open Sans", sans-serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
-body {
+h1 {
+  text-align: center;
+  font-size: 2rem;
+}
 
+body {
+  font-size: 0.875rem;
+  margin: 0;
+}
+
+h2 {
+  font-size: 0.875rem;
+}
+
+h3 {
+  font-weight: normal;
+  font-style: italic;
+  font-size: 0.875rem;
+  margin: 0;
+}
+
+p {
+  margin-top: 0.2em;
 }
 
 img {
+  width: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
+section {
+  float: left;
+  width: 25%;
+  border-right: 1px solid black;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  padding-bottom: 4em;
+}
+
+.quest {
+  background-color: #e2e2e2;
+}
+
+.dinosaur {
+  background-color: #ccc;
+}
+
+.dragon {
+  background-color: #aaa;
+}
+
+.ships {
+  background-color: #999;
 }
 
 .btn {
-
+  border-radius: 8px;
+  font-size: 0.875rem;
+  display: inline-block;
+  padding: 0.3em;
+  text-decoration: none;
 }
 
-.btn-hover {
+.btn-small {
+  color: #fff;
+  background-color: #333;
+}
 
+.btn:hover {
+  background-color: black;
 }
